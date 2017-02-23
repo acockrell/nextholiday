@@ -28,35 +28,35 @@ define([
             date: 'September 4, 2017'
         }, {
             description: 'Thanksgiving Day',
-            date: 'October 9, 2017'
+            date: 'October 9, 2017',
             image: 'thanksgiving.jpg'
         }, {
             description: 'Remembrance Day',
-            date: 'November 13, 2017'
+            date: 'November 13, 2017',
             image: 'veterans-day.jpg'
         }, {
             description: 'Christmas Day',
-            date: 'December 25, 2015'
+            date: 'December 25, 2015',
             image: 'xmas.jpg'
         }, {
             description: 'Boxing Day',
-            date: 'December 26, 2015'
+            date: 'December 26, 2015',
             image: 'xmas.jpg'
         }, {
             description: 'XMAS Closing',
-            date: 'December 27, 2017'
+            date: 'December 27, 2017',
             image: 'xmas.jpg'
         }, {
             description: 'XMAS Closing',
-            date: 'December 28, 2017'
+            date: 'December 28, 2017',
             image: 'xmas.jpg'
         }, {
             description: 'XMAS Closing',
-            date: 'December 29, 2017'
+            date: 'December 29, 2017',
             image: 'xmas.jpg'
         }, {
             description: 'XMAS Closing',
-            date: 'December 30, 2017'
+            date: 'December 30, 2017',
             image: 'xmas.jpg'
         }
     ]);
