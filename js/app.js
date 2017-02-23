@@ -9,34 +9,54 @@ define([
             description: 'New Year\'s Day',
             date: 'January 2, 2017'
         }, {
-            description: 'Martin Luther King, Jr. Day',
-            date: 'January 16, 2017'
+            description: 'Family Day',
+            date: 'February 13, 2017'
         }, {
-            description: 'Presidents\' Day',
-            date: 'February 20, 2017'
+            description: 'Good Friday',
+            date: 'April 14, 2017'
         }, {
-            description: 'Memorial Day',
-            date: 'May 29, 2017'
+            description: 'Victoria Day',
+            date: 'May 22, 2017'
         }, {
-            description: 'Independance Day',
-            date: 'July 4, 2017'
+            description: 'Canada Day',
+            date: 'July 3, 2017'
         }, {
-            description: 'Labor Day',
+            description: 'BC Day',
+            date: 'August 7, 2017'
+        }, {
+            description: 'Labour Day',
             date: 'September 4, 2017'
         }, {
-            description: 'Columbus Day',
-            date: 'October 9, 2017'
-        }, {
-            description: 'Veterans Day (Observed)',
-            date: 'November 10, 2017',
-            image: 'veterans-day.jpg'
-        }, {
             description: 'Thanksgiving Day',
-            date: 'November 23, 2017',
+            date: 'October 9, 2017'
             image: 'thanksgiving.jpg'
         }, {
+            description: 'Remembrance Day',
+            date: 'November 13, 2017'
+            image: 'veterans-day.jpg'
+        }, {
             description: 'Christmas Day',
-            date: 'December 25, 2017',
+            date: 'December 25, 2015'
+            image: 'xmas.jpg'
+        }, {
+            description: 'Boxing Day',
+            date: 'December 26, 2015'
+            image: 'xmas.jpg'
+        }, {
+            description: 'XMAS Closing',
+            date: 'December 27, 2017'
+            image: 'xmas.jpg'
+        }, {
+            description: 'XMAS Closing',
+            date: 'December 28, 2017'
+            image: 'xmas.jpg'
+        }, {
+            description: 'XMAS Closing',
+            date: 'December 29, 2017'
+            image: 'xmas.jpg'
+        }, {
+            description: 'XMAS Closing',
+            date: 'December 30, 2017'
             image: 'xmas.jpg'
         }
     ]);
