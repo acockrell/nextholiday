@@ -18,6 +18,10 @@ define([
             description: 'Victoria Day',
             date: 'May 22, 2017'
         }, {
+            description: 'Mitchell\'s Birthday,
+            date: 'June 15, 2017',
+            image: 'monkey_birthday.jpg'
+        }, {
             description: 'Canada Day',
             date: 'July 3, 2017'
         }, {
