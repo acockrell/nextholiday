@@ -2,6 +2,9 @@
     "description": "New Year’s Day",
     "date":	"January 1, 2018"
 }, {
+	"description": "Testing Day",
+    "date":	"January 15, 2018"
+}, {
     "description": "Family Day",
     "date":	"February 12, 2018"
 }, {
@@ -15,7 +18,7 @@
     "date": "June 15, 2017",
     "image": "birthday.jpg"
 }, {
-    "description": "Canada Day	 ",
+    "description": "Canada Day (Observed)",
     "date": "July 2, 2018"
 }, {
     "description": "BC Day",
@@ -28,7 +31,7 @@
     "image": "thanksgiving.jpg",
     "date":	"October 8, 2018"
 }, {
-    "description": "Remembrance Day",
+    "description": "Remembrance Day (Observed)",
     "image": "veterans-day.jpg",
     "date":	"November 12, 2018"
 }, {
