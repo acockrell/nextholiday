@@ -1,4 +1,5 @@
 define([
+<<<<<<< HEAD
     'underscore',
     'backbone',
     'views/HolidaysView',
@@ -64,16 +65,20 @@ define([
             image: 'xmas.jpg'
         }
     ]);
+=======
+	'underscore',
+	'backbone',
+	'router',
+	'views/HolidaysView',
+	'collections/Holidays'
+], function(_, Backbone, Router, HolidaysView, Holidays) {
+	var initialize = function() {
+		Router.initialize();
+	};
+>>>>>>> upstream/master
 
-        new HolidaysView({
-            el: '#holiday',
-            collection: holidays,
-        }).render();
-
-    };
-
-    return {
-        initialize: initialize
-    };
+	return {
+		initialize: initialize
+	};
 
 });
