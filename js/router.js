@@ -15,7 +15,10 @@ define([
     routes: {
       '': 'default',
       'custom/:year/:month/:day': 'custom',
+      'us_holidays': 'us_holidays',
       'springbreak': 'springbreak',
+      'mitchell': 'mitchell',
+      'test': 'test',
       '*notfound': 'notFound'
     },
 
@@ -31,6 +34,13 @@ define([
 
     default: function() {
       var date = new Holidays({
+        url: 'js/json/ea_holidays.json'
+      });
+      this.addToView(date);
+    },
+
+    us_holidays: function() {
+      var date = new Holidays({
         url: 'js/json/us_holidays.json'
       });
       this.addToView(date);
@@ -39,6 +49,20 @@ define([
     springbreak: function() {
       var date = new Holidays({
         url: 'js/json/springbreak.json'
+      });
+      this.addToView(date);
+    },
+
+    mitchell: function() {
+      var date = new Holidays({
+        url: 'js/json/mitchell.json'
+      });
+      this.addToView(date);
+    },
+
+    test: function() {
+      var date = new Holidays({
+        url: 'js/json/test.json'
       });
       this.addToView(date);
     },
