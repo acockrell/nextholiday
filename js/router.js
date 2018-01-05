@@ -31,7 +31,7 @@ define([
 
     default: function() {
       var date = new Holidays({
-        url: 'js/json/us_holidays.json'
+        url: 'js/json/ea_holidays.json'
       });
       this.addToView(date);
     },
