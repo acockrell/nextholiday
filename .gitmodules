@@ -1,0 +1,4 @@
+[submodule "nextholiday"]
+	path = nextholiday
+	url = git@github.com:Gavitron/nextholiday.git
+	branch = master
