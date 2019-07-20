@@ -15,8 +15,9 @@ define([
     routes: {
       '': 'default',
       'custom/:year/:month/:day': 'custom',
-      'ea_holidays': 'ea_holidays',
-      'us_holidays': 'us_holidays',
+      'sonatype': 'sonatype_holidays',
+      'ea': 'ea_holidays',
+      'usa': 'us_holidays',
       'springbreak': 'springbreak',
       'mitchell': 'mitchell',
       'test': 'test',
@@ -35,7 +36,7 @@ define([
 
     default: function() {
       var date = new Holidays({
-        url: 'js/json/ea_holidays.json'
+        url: 'js/json/sonatype_holidays.json'
       });
       this.addToView(date);
 
