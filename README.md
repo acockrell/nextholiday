@@ -4,6 +4,7 @@ Personal project to know when my next day off of work is.
 
 
 ## To-Do
+* leverage https://www.smashingmagazine.com/2016/08/sghpa-single-page-app-hack-github-pages/
 * Integrate with an api to fetch the holidays
 * ~~Fix pluralization~~
 * Add bootstrap styles for better device support
