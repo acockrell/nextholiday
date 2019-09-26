@@ -17,7 +17,7 @@ define([
 			this.$el.append(this.model.attributes.date);
 
             if (this.model.attributes.image) {
-                $('body').css('background-image', "url('images/"+this.model.attributes.image+"')");
+                $('body').css('background-image', "url('images/"+this.model.attributes.image+"');background-size: cover");
             }
 
 			return this;
