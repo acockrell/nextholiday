@@ -15,10 +15,12 @@ define([
     routes: {
       '': 'default',
       'custom/:year/:month/:day': 'custom',
-      'sonatype': 'sonatype_holidays',
-      'ea': 'ea_holidays',
+      'work': 'work_holidays',
+      'school': 'school_holidays',
       'usa': 'us_holidays',
       'springbreak': 'springbreak',
+      'summerbreak': 'summerbreak',
+      'ea': 'ea_holidays',
       'mitchell': 'mitchell',
       'test': 'test',
       '*notfound': 'notFound'
@@ -42,9 +44,16 @@ define([
 
     },
 
-    ea_holidays: function() {
+    work_holidays: function() {
       var date = new Holidays({
-        url: 'js/json/ea_holidays.json'
+        url: 'js/json/sonatype_holidays.json'
+      });
+      this.addToView(date);
+    },
+
+    school_holidays: function() {
+      var date = new Holidays({
+        url: 'js/json/laity_holidays.json'
       });
       this.addToView(date);
     },
@@ -59,6 +68,20 @@ define([
     springbreak: function() {
       var date = new Holidays({
         url: 'js/json/springbreak.json'
+      });
+      this.addToView(date);
+    },
+
+    summerbreak: function() {
+      var date = new Holidays({
+        url: 'js/json/summerbreak.json'
+      });
+      this.addToView(date);
+    },
+
+    ea_holidays: function() {
+      var date = new Holidays({
+        url: 'js/json/ea_holidays.json'
       });
       this.addToView(date);
     },
