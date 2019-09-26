@@ -116,6 +116,7 @@ define([
       $('#holiday').html('<h1>404 - Page not found</h1>');
       $('#countdown').countdown('stop').html('');
       $('body').css('background-image', 'url("images/404.jpg")');
+      $('body').css('background-size',"cover");
     }
 
   });
