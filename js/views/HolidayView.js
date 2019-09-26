@@ -18,7 +18,7 @@ define([
 
             if (this.model.attributes.image) {
                 $('body').css('background-image', "url('images/"+this.model.attributes.image+"')");
-                $('body').css('background-size',"cover");
+                //$('body').css('background-size',"cover");
             }
 
 			return this;
