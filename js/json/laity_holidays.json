@@ -50,10 +50,12 @@
     "image": "xmas.jpg"
 }, {
     "description": "New Year's Day",
-    "date": "January 1, 2020"
+    "date": "January 1, 2020",
+    "image": "newyears.jpg"
 }, {
     "description": "Christmas Break",
-    "date": "January 2, 2020"
+    "date": "January 2, 2020",
+    "image": "newyears.jpg"
 }, {
     "description": "Christmas Break",
     "date": "January 3, 2020"
@@ -68,22 +70,28 @@
     "date": "February 14, 2020"
 }, {
     "description": "Family Day",
-    "date": "February 17, 2020"
+    "date": "February 17, 2020",
+    "image": "family.jpg"
 }, {
     "description": "Spring Break",
-    "date": "March 16, 2020"
+    "date": "March 16, 2020",
+    "image": "cat.jpg"
 }, {
     "description": "Spring Break",
-    "date": "March 17, 2020"
+    "date": "March 17, 2020",
+    "image": "cat.jpg"
 }, {
     "description": "Spring Break",
-    "date": "March 18, 2020"
+    "date": "March 18, 2020",
+    "image": "cat.jpg"
 }, {
     "description": "Spring Break",
-    "date": "March 19, 2020"
+    "date": "March 19, 2020",
+    "image": "cat.jpg"
 }, {
     "description": "Spring Break",
-    "date": "March 20, 2020"
+    "date": "March 20, 2020",
+    "image": "cat.jpg"
 }, {
     "description": "School not in Session",
     "date": "March 23, 2020"
@@ -101,13 +109,16 @@
     "date": "March 27, 2020"
 }, {
     "description": "Good Friday",
-    "date": "April 10, 2020"
+    "date": "April 10, 2020",
+    "image": "good-friday.jpg"
 }, {
     "description": "Easter Monday",
-    "date": "April 13, 2020"
+    "date": "April 13, 2020",
+    "image": "good-friday.jpg"
 }, {
     "description": "Victoria Day",
-    "date": "May 18, 2020"
+    "date": "May 18, 2020",
+    "image": "Victoria.jpg"
 }, {
     "description": "Non-instructional day",
     "date": "May 19, 2020"
@@ -118,5 +129,9 @@
 }, {
     "description": "Summer Holidays",
     "date": "June 27, 2020",
-    "image": "birthday.jpg"
+    "image": "adriondacks.jpg"
+}, {
+    "description": "Labor Day",
+    "date": "September 7, 2020",
+    "image": "laborday.jpg"
 }]

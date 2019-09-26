@@ -1,24 +1,30 @@
 [{
     "description": "New Year's Day",
-    "date": "January 1, 2020"
+    "date": "January 1, 2020",
+    "image": "newyears.jpg"
 }, {
     "description": "Martin Luther King, Jr. Day",
     "date": "January 15, 2020"
 }, {
     "description": "Presidents' Day",
-    "date": "February 19, 2020"
+    "date": "February 19, 2020",
+    "image": "laborday.jpg"
 }, {
     "description": "Memorial Day",
-    "date": "May 28, 2020"
+    "date": "May 28, 2020",
+    "image": "laborday.jpg"
 }, {
     "description": "Independance Day",
-    "date": "July 4, 2020"
+    "date": "July 4, 2020",
+    "image": "laborday.jpg"
 }, {
     "description": "Labor Day",
-    "date": "September 3, 2020"
+    "date": "September 3, 2020",
+    "image": "laborday.jpg"
 }, {
     "description": "Columbus Day",
-    "date": "October 8, 2018"
+    "date": "October 8, 2018",
+    "image": "laborday.jpg"
 }, {
     "description": "Veterans Day (Observed)",
     "date": "November 12, 2020",
