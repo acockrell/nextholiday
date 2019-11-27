@@ -1,16 +1,4 @@
 [{
-    "description": "Labor Day",
-    "date": "September 2, 2019",
-    "image": "laborday.png"
-}, {
-    "description": "Thanksgiving Day",
-    "date": "October 14, 2019",
-    "image": "thanksgiving.jpg"
-}, {
-    "description": "Remembrance Day",
-    "date": "November 11, 2019",
-    "image": "veterans-day.jpg"
-}, {
     "description": "Christmas Day",
     "date": "December 25, 2019",
     "image": "xmas.jpg"
@@ -30,10 +18,6 @@
     "description": "Victoria Day",
     "date": "May 18, 2020",
     "image": "Victoria.jpg"
-}, {
-    "description": "Mitchell's Birthday",
-    "date": "June 15, 2020",
-    "image": "birthday.jpg"
 }, {
     "description": "Canada Day",
     "date": "July 1, 2020",
@@ -58,4 +42,48 @@
     "description": "Christmas Day",
     "date": "December 25, 2020",
     "image": "xmas.jpg"
+}, {
+    "description": "New Years Day",
+    "date": "Jan 1, 2021",
+    "image": "newyears.jpg"
+}, {
+    "description": "Family Day",
+    "date": "Feb 15, 2021",
+    "image": "family.jpg"
+}, {
+    "description": "Good Friday",
+    "date": "Apr 2, 2021",
+    "image": "good-friday.jpg"
+}, {
+    "description": "Victoria Day",
+    "date": "May 24, 2021",
+    "image": "Victoria.jpg"
+}, {
+    "description": "Canada Day",
+    "date": "Jul 1, 2021",
+    "image": "catnada.jpg"
+}, {
+    "description": "BC Day",
+    "date": "Aug 2, 2021",
+    "image": "bc-day.jpg"
+}, {
+    "description": "Labour Day",
+    "date": "Sep 6, 2021",
+    "image": "laborday.jpg"
+}, {
+    "description": "Thanksgiving Day",
+    "date": "Oct 11, 2021",
+    "image": "thanksgiving.jpg"
+}, {
+    "description": "Remembrance Day",
+    "date": "Nov 11, 2021",
+    "image": "veterans-day.jpg"
+}, {
+    "description": "Christmas Day Observed",
+    "date": "Dec 24, 2021",
+    "image": "xmas.jpg"
+}, {
+    "description": "New Years Day Observed",
+    "date": "Dec 31, 2021",
+    "image": "newyears.jpg"
 }]

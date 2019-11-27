@@ -1,0 +1,265 @@
+[{
+    "description": "Floating Holiday",
+    "date": "December 20, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Vacation",
+    "date": "December 23, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Vacation",
+    "date": "December 24, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Vacation",
+    "date": "December 27, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Vacation",
+    "date": "December 30, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Vacation",
+    "date": "December 31, 2019",
+    "image": "newyears.jpg"
+}, {
+    "description": "Vacation",
+    "date": "January 2, 2020",
+    "image": "newyears.jpg"
+}, {
+    "description": "Vacation",
+    "date": "January 3, 2020",
+    "image": "newyears.jpg"
+}, {
+    "description": "Thanksgiving Day",
+    "date": "October 14, 2019",
+    "image": "thanksgiving.jpg"
+}, {
+    "description": "Non-instructional day",
+    "date": "October 25, 2019"
+}, {
+    "description": "Non-instructional day",
+    "date": "November 8, 2019"
+}, {
+    "description": "Remembrance Day",
+    "date": "November 11, 2019",
+    "image": "veterans-day.jpg"
+}, {
+    "description": "Christmas Break",
+    "date": "December 23, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Christmas Break",
+    "date": "December 24, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Christmas Day",
+    "date": "December 25, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Boxing Day",
+    "date": "December 26, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Christmas Break",
+    "date": "December 27, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Christmas Break",
+    "date": "December 28, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Christmas Break",
+    "date": "December 29, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Christmas Break",
+    "date": "December 30, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "Christmas Break",
+    "date": "December 31, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "New Year's Day",
+    "date": "January 1, 2020",
+    "image": "newyears.jpg"
+}, {
+    "description": "Christmas Break",
+    "date": "January 2, 2020",
+    "image": "newyears.jpg"
+}, {
+    "description": "Christmas Break",
+    "date": "January 3, 2020"
+}, {
+    "description": "Non-instructional day",
+    "date": "January 24, 2020"
+}, {
+    "description": "Non-instructional day",
+    "date": "February 13, 2020"
+}, {
+    "description": "Not in Session",
+    "date": "February 14, 2020"
+}, {
+    "description": "Family Day",
+    "date": "February 17, 2020",
+    "image": "family.jpg"
+}, {
+    "description": "Spring Break",
+    "date": "March 16, 2020",
+    "image": "cat.jpg"
+}, {
+    "description": "Spring Break",
+    "date": "March 17, 2020",
+    "image": "cat.jpg"
+}, {
+    "description": "Spring Break",
+    "date": "March 18, 2020",
+    "image": "cat.jpg"
+}, {
+    "description": "Spring Break",
+    "date": "March 19, 2020",
+    "image": "cat.jpg"
+}, {
+    "description": "Spring Break",
+    "date": "March 20, 2020",
+    "image": "cat.jpg"
+}, {
+    "description": "School not in Session",
+    "date": "March 23, 2020"
+}, {
+    "description": "School not in Session",
+    "date": "March 24, 2020"
+}, {
+    "description": "School not in Session",
+    "date": "March 25, 2020"
+}, {
+    "description": "School not in Session",
+    "date": "March 26, 2020"
+}, {
+    "description": "School not in Session",
+    "date": "March 27, 2020"
+}, {
+    "description": "Good Friday",
+    "date": "April 10, 2020",
+    "image": "good-friday.jpg"
+}, {
+    "description": "Easter Monday",
+    "date": "April 13, 2020",
+    "image": "good-friday.jpg"
+}, {
+    "description": "Victoria Day",
+    "date": "May 18, 2020",
+    "image": "Victoria.jpg"
+}, {
+    "description": "Non-instructional day",
+    "date": "May 19, 2020"
+}, {
+    "description": "Last Day of School",
+    "date": "June 24, 2020",
+    "image": "birthday.jpg"
+}, {
+    "description": "Summer Holidays",
+    "date": "June 27, 2020",
+    "image": "adriondacks.jpg"
+}, {
+    "description": "Labor Day",
+    "date": "September 7, 2020",
+    "image": "laborday.jpg"
+}, {
+    "description": "Christmas Day",
+    "date": "December 25, 2019",
+    "image": "xmas.jpg"
+}, {
+    "description": "New Year's Day",
+    "date": "January 1, 2020",
+    "image": "newyears.jpg"
+}, {
+    "description": "Family Day",
+    "date": "February 17, 2020",
+    "image": "family.jpg"
+}, {
+    "description": "Good Friday",
+    "date": "April 10, 2020",
+    "image": "good-friday.jpg"
+}, {
+    "description": "Victoria Day",
+    "date": "May 18, 2020",
+    "image": "Victoria.jpg"
+}, {
+    "description": "Canada Day",
+    "date": "July 1, 2020",
+    "image": "catnada.jpg"
+}, {
+    "description": "BC Day",
+    "date": "August 3, 2020",
+    "image": "bc-day.jpg"
+}, {
+    "description": "Labor Day",
+    "date": "September 7, 2020",
+    "image": "laborday.jpg"
+}, {
+    "description": "Thanksgiving Day",
+    "date": "October 12, 2020",
+    "image": "thanksgiving.jpg"
+}, {
+    "description": "Remembrance Day",
+    "date": "November 11, 2020",
+    "image": "veterans-day.jpg"
+}, {
+    "description": "Christmas Day",
+    "date": "December 25, 2020",
+    "image": "xmas.jpg"
+}, {
+    "description": "New Years Day",
+    "date": "Jan 1, 2021",
+    "image": "newyears.jpg"
+}, {
+    "description": "Family Day",
+    "date": "Feb 15, 2021",
+    "image": "family.jpg"
+}, {
+    "description": "Good Friday",
+    "date": "Apr 2, 2021",
+    "image": "good-friday.jpg"
+}, {
+    "description": "Victoria Day",
+    "date": "May 24, 2021",
+    "image": "Victoria.jpg"
+}, {
+    "description": "Canada Day",
+    "date": "Jul 1, 2021",
+    "image": "catnada.jpg"
+}, {
+    "description": "BC Day",
+    "date": "Aug 2, 2021",
+    "image": "bc-day.jpg"
+}, {
+    "description": "Labour Day",
+    "date": "Sep 6, 2021",
+    "image": "laborday.jpg"
+}, {
+    "description": "Thanksgiving Day",
+    "date": "Oct 11, 2021",
+    "image": "thanksgiving.jpg"
+}, {
+    "description": "Remembrance Day",
+    "date": "Nov 11, 2021",
+    "image": "veterans-day.jpg"
+}, {
+    "description": "Christmas Day Observed",
+    "date": "Dec 24, 2021",
+    "image": "xmas.jpg"
+}, {
+    "description": "New Years Day Observed",
+    "date": "Dec 31, 2021",
+    "image": "newyears.jpg"
+}, {
+	"description": "Spring Break",
+	"date": "March 14, 2020",
+	"image": "cat.jpg"
+}, {
+	"description": "Summer Break",
+	"date": "June 25, 2020",
+	"image": "adriondacks.jpg"
+}]

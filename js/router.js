@@ -14,8 +14,9 @@ define([
   var AppRouter = Backbone.Router.extend({
     routes: {
       '': 'default',
-      'custom/:year/:month/:day': 'custom',
+      'combined': 'default',
       'work': 'work_holidays',
+      'leave': 'leave_holidays',
       'school': 'school_holidays',
       'usa': 'us_holidays',
       'springbreak': 'springbreak',
@@ -23,6 +24,7 @@ define([
       'ea': 'ea_holidays',
       'mitchell': 'mitchell',
       'test': 'test',
+      'custom/:year/:month/:day': 'custom',
       '*notfound': 'notFound'
     },
 
@@ -38,7 +40,7 @@ define([
 
     default: function() {
       var date = new Holidays({
-        url: 'js/json/sonatype_holidays.json'
+        url: 'js/json/combined.json'
       });
       this.addToView(date);
 
@@ -46,14 +48,21 @@ define([
 
     work_holidays: function() {
       var date = new Holidays({
-        url: 'js/json/sonatype_holidays.json'
+        url: 'js/json/sonatype.json'
+      });
+      this.addToView(date);
+    },
+
+    leave_holidays: function() {
+      var date = new Holidays({
+        url: 'js/json/leave.json'
       });
       this.addToView(date);
     },
 
     school_holidays: function() {
       var date = new Holidays({
-        url: 'js/json/laity_holidays.json'
+        url: 'js/json/school.json'
       });
       this.addToView(date);
     },
