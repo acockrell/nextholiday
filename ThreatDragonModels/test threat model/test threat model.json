@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "test threat model",
+    "owner": "Gavin McDonald",
+    "description": "just a sample system"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Gavin McDonald"
+  }
+}
