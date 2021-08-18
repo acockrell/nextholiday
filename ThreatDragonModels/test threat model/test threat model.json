@@ -10,7 +10,207 @@
       {
         "title": "Application DFD",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 42,
+                "y": 39
+              },
+              "angle": 0,
+              "id": "8281cdc7-a7da-46a9-a552-7abe7315aef1",
+              "z": 1,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "title": "User Attack",
+                  "description": "A malicious user views the Lightweight Directory Access Protocol (LDAP) authentication packets and learns how to reply to them so that he can act \"on behalf of\" the user. (Spoofing identity/Information disclosure/Elevation of privilege [if the authentication data used is that of an administrator])"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 268,
+                "y": 254
+              },
+              "angle": 0,
+              "id": "0310eeaf-0f37-466a-a544-83aced72dc16",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 115,
+                "y": 472
+              },
+              "angle": 0,
+              "id": "1b7d6094-6de7-4a1d-a36b-4a89e9d79a57",
+              "z": 3,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "title": "DoS of package Repo",
+                  "description": "high rate of traffic to uncached origin server"
+                }
+              ],
+              "isEncrypted": true,
+              "isALog": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "8281cdc7-a7da-46a9-a552-7abe7315aef1"
+              },
+              "target": {
+                "id": "0310eeaf-0f37-466a-a544-83aced72dc16"
+              },
+              "vertices": [],
+              "id": "e6c19968-7ab1-4680-a5bf-85e62ce18489",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 3",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "0310eeaf-0f37-466a-a544-83aced72dc16"
+              },
+              "target": {
+                "id": "1b7d6094-6de7-4a1d-a36b-4a89e9d79a57"
+              },
+              "vertices": [
+                {
+                  "x": 167,
+                  "y": 363
+                }
+              ],
+              "id": "454bd873-6f25-4753-a39e-5addc4483f13",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 49,
+                "y": 546
+              },
+              "target": {
+                "x": 475,
+                "y": 527
+              },
+              "vertices": [
+                {
+                  "x": 282,
+                  "y": 135
+                }
+              ],
+              "id": "ce7e3a19-ded3-4137-9d21-462ff0874f74",
+              "z": 6,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 687.8360595703125,
+          "width": 2194
+        }
       }
     ],
     "reviewer": "Gavin McDonald"
